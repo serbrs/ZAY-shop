@@ -153,7 +153,7 @@ const Layout = () => {
         </Swiper>
       </div>
       {/*  Categories */}
-      <section className="py-5 container mx-auto my-6 ">
+      <section className="py-10 mt-6 container mx-auto ">
         <h2 className="text-5xl text-center font-extralight text-gray-600 px-3 py-2 ">
           Categories of The Month
         </h2>
@@ -209,7 +209,7 @@ const Layout = () => {
         </div>
       </section>
       {/* Products section */}
-      <section className="py-14  mt-10 bg-boz ">
+      <section className="py-14 mt-10 bg-boz ">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl text-center font-extralight text-gray-600 px-3 py-2 ">
             Featured Product
