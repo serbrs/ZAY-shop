@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 640px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: "";
+    font-size: 24px !important;
+  }
+  .swiper-button-next {
+    margin-left: 1rem;
+  }
+  .swiper-button-prev {
+    margin-right: 1rem;
+  }
+}
+
+ul > li:hover {
+  color: rgba(3, 148, 3, 0.904);
+  transition: all 0.4s ease-in-out;
+}
